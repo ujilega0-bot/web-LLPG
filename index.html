@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lumpia Pisang Crispy dan minuman segar untuk pemesanan cepat di area kampus.">
+    <title>Lumpia Pisang Crispy | Jajan Kampus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" aria-label="Navigasi utama">
+        <div class="nav-container">
+            <a href="#beranda" class="brand">
+                <span class="brand-mark"><i class="fas fa-bowl-food"></i></span>
+                <span>
+                    <strong>Lumpia Pisang</strong>
+                    <small>Crispy Kampus</small>
+                </span>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="#makanan" class="nav-link">Makanan</a></li>
+                <li><a href="#minuman" class="nav-link">Minuman</a></li>
+                <li><a href="#cara-pesan" class="nav-link">Cara Pesan</a></li>
+            </ul>
+
+            <button class="cart-trigger" type="button" aria-label="Buka keranjang">
+                <i class="fas fa-bag-shopping"></i>
+                <span class="cart-count">0</span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="beranda">
+            <div class="hero-inner">
+                <div class="hero-copy">
+                    <span class="eyebrow">Pre-order jajan kampus</span>
+                    <h1>Lumpia pisang crispy, manis renyah untuk teman kelasmu.</h1>
+                    <p>Pesan online, pilih menu, lalu konfirmasi lewat WhatsApp. Praktis untuk ambil di kampus atau diantar sesuai kesepakatan.</p>
+                    <div class="hero-actions">
+                        <a href="#makanan" class="primary-btn">
+                            <i class="fas fa-bag-shopping"></i>
+                            Pesan Sekarang
+                        </a>
+                        <a href="#cara-pesan" class="secondary-btn">Lihat Cara Pesan</a>
+                    </div>
+                </div>
+
+                <div class="hero-showcase" aria-label="Produk unggulan">
+                    <article class="feature-product">
+                        <img src="gambar/toping keju.jpg" alt="Lumpia pisang topping keju">
+                        <div>
+                            <span>Menu favorit</span>
+                            <strong>Lumpia Pisang Keju</strong>
+                            <p>Mulai Rp 15.000</p>
+                        </div>
+                    </article>
+                    <div class="hero-stats">
+                        <div>
+                            <strong>6</strong>
+                            <span>Menu pilihan</span>
+                        </div>
+                        <div>
+                            <strong>WA</strong>
+                            <span>Konfirmasi cepat</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trust-strip" aria-label="Keunggulan layanan">
+            <div class="container strip-grid">
+                <div><i class="fas fa-clock"></i> Pesanan cepat diproses</div>
+                <div><i class="fas fa-location-dot"></i> Cocok untuk area kampus</div>
+                <div><i class="fas fa-wallet"></i> COD atau QRIS</div>
+            </div>
+        </section>
+
+        <section id="makanan" class="products-section">
+            <div class="container">
+                <div class="section-heading">
+                    <span>Menu makanan</span>
+                    <h2>Lumpia Pisang Crispy</h2>
+                </div>
+
+                <div class="products-grid">
+                    <article class="product-card" data-name="Lumpia Pisang Keju" data-price="15000">
+                        <div class="product-image">
+                            <img src="gambar/toping keju.jpg" alt="Lumpia Pisang Keju">
+                            <span class="product-badge">Terlaris</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Topping Keju</h3>
+                            <p>Renyah di luar, pisang lembut, dengan taburan keju gurih.</p>
+                            <div class="product-footer">
+                                <span class="price">Rp 15.000</span>
+                                <button class="add-to-cart" type="button">
+                                    <i class="fas fa-plus"></i>
+                                    Tambah
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-name="Lumpia Pisang Coklat" data-price="15000">
+                        <div class="product-image">
+                            <img src="gambar/coklat.jpg" alt="Lumpia Pisang Coklat">
+                        </div>
+                        <div class="product-info">
+                            <h3>Topping Coklat</h3>
+                            <p>Manis coklat yang pas untuk camilan setelah kelas.</p>
+                            <div class="product-footer">
+                                <span class="price">Rp 15.000</span>
+                                <button class="add-to-cart" type="button">
+                                    <i class="fas fa-plus"></i>
+                                    Tambah
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-name="Lumpia Pisang Kacang" data-price="18000">
+                        <div class="product-image">
+                            <img src="gambar/kacang.jpg" alt="Lumpia Pisang Kacang">
+                        </div>
+                        <div class="product-info">
+                            <h3>Topping Kacang</h3>
+                            <p>Perpaduan pisang, kulit crispy, dan kacang yang wangi.</p>
+                            <div class="product-footer">
+                                <span class="price">Rp 18.000</span>
+                                <button class="add-to-cart" type="button">
+                                    <i class="fas fa-plus"></i>
+                                    Tambah
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="minuman" class="products-section section-soft">
+            <div class="container">
+                <div class="section-heading">
+                    <span>Menu minuman</span>
+                    <h2>Minuman Segar</h2>
+                </div>
+
+                <div class="products-grid">
+                    <article class="product-card" data-name="Es Jeruk Segar" data-price="8000">
+                        <div class="product-image">
+                            <img src="gambar/jeruk.jpg" alt="Es Jeruk Segar">
+                        </div>
+                        <div class="product-info">
+                            <h3>Es Jeruk Segar</h3>
+                            <p>Segar, ringan, dan cocok menemani lumpia pisang.</p>
+                            <div class="product-footer">
+                                <span class="price">Rp 8.000</span>
+                                <button class="add-to-cart" type="button">
+                                    <i class="fas fa-plus"></i>
+                                    Tambah
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-name="Es Teh Manis" data-price="7000">
+                        <div class="product-image">
+                            <img src="gambar/teh.jpg" alt="Es Teh Manis">
+                        </div>
+                        <div class="product-info">
+                            <h3>Es Teh Manis</h3>
+                            <p>Klasik, dingin, dan selalu aman untuk semua suasana.</p>
+                            <div class="product-footer">
+                                <span class="price">Rp 7.000</span>
+                                <button class="add-to-cart" type="button">
+                                    <i class="fas fa-plus"></i>
+                                    Tambah
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-name="Soda Gembira Stroberi" data-price="12000">
+                        <div class="product-image">
+                            <img src="gambar/soda-gembira-stroberi.jpg" alt="Soda Gembira Stroberi">
+                            <span class="product-badge badge-cold">Segar</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Soda Gembira Stroberi</h3>
+                            <p>Manis, creamy, dan menyegarkan untuk jam istirahat.</p>
+                            <div class="product-footer">
+                                <span class="price">Rp 12.000</span>
+                                <button class="add-to-cart" type="button">
+                                    <i class="fas fa-plus"></i>
+                                    Tambah
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="cara-pesan" class="order-guide">
+            <div class="container guide-grid">
+                <div class="section-heading align-left">
+                    <span>Cara pesan</span>
+                    <h2>Tiga langkah sampai pesananmu dikonfirmasi.</h2>
+                </div>
+                <div class="steps">
+                    <div class="step"><strong>1</strong><span>Pilih menu dan masukkan ke keranjang.</span></div>
+                    <div class="step"><strong>2</strong><span>Isi nama, nomor WA, dan titik ambil atau alamat.</span></div>
+                    <div class="step"><strong>3</strong><span>Konfirmasi, lalu pesanan otomatis masuk ke WhatsApp admin.</span></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="cart-modal" id="cartModal" aria-hidden="true">
+        <div class="cart-content" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+            <button class="close-cart" type="button" aria-label="Tutup keranjang">
+                <i class="fas fa-xmark"></i>
+            </button>
+
+            <h2 id="cartTitle">Keranjang Pesanan</h2>
+            <div class="cart-items" id="cartItems">
+                <p class="empty-cart">Keranjang kosong</p>
+            </div>
+
+            <div class="customer-info">
+                <label>
+                    <span>Nama</span>
+                    <input type="text" id="customerName" placeholder="Nama lengkap" autocomplete="name" required>
+                </label>
+                <label>
+                    <span>Nomor WhatsApp</span>
+                    <input type="tel" id="customerPhone" placeholder="08xxxxxxxxxx" inputmode="tel" autocomplete="tel" required>
+                </label>
+                <label>
+                    <span>Alamat atau titik ambil</span>
+                    <textarea id="customerAddress" placeholder="Contoh: depan gedung B / alamat lengkap" rows="3" required></textarea>
+                </label>
+            </div>
+
+            <div class="cart-total">
+                <span>Total Belanja</span>
+                <strong id="totalPrice">Rp 0</strong>
+            </div>
+
+            <div class="payment-methods">
+                <h3>Metode Pembayaran</h3>
+                <button class="payment-option active" type="button" data-method="cod">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <span>
+                        <strong>COD</strong>
+                        <small>Bayar saat pesanan diterima</small>
+                    </span>
+                </button>
+                <button class="payment-option" type="button" data-method="qris">
+                    <i class="fas fa-qrcode"></i>
+                    <span>
+                        <strong>QRIS</strong>
+                        <small>Scan QRIS saat pesanan diterima</small>
+                    </span>
+                </button>
+            </div>
+
+            <button class="checkout-btn" id="confirmCheckout" type="button">
+                <i class="fas fa-paper-plane"></i>
+                Konfirmasi via WhatsApp
+            </button>
+
+            <p class="info-note">
+                Pesanan diteruskan ke WA Admin: 088294519516
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
