@@ -206,7 +206,9 @@ confirmCheckout.onclick = () => {
     }
 
     const waUrl = `https://wa.me/6288294519516?text=${encodeURIComponent(message)}`;
-    location.href = waUrl;
+
+    window.open(waUrl, '_blank', 'noopener');
+    showNotification(`Pesanan #${orderNumber} dibuka di WhatsApp admin`);
 
     cart = [];
     orderCounter += 1;
@@ -217,8 +219,6 @@ confirmCheckout.onclick = () => {
     document.querySelectorAll('.customer-info input, .customer-info textarea').forEach(input => {
         input.value = '';
     });
-
-    showNotification(`Pesanan #${orderNumber} dikirim! (${payment})`);
 };
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
