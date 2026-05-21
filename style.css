@@ -172,7 +172,7 @@ button {
   align-items: center;
   background:
     linear-gradient(90deg, rgba(21, 23, 26, 0.74), rgba(21, 23, 26, 0.22)),
-    url("gambar/toping keju.jpg") center/cover;
+    url("https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=1600&q=80") center/cover;
 }
 
 .hero-inner {
